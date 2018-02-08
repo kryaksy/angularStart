@@ -1,0 +1,42 @@
+/* General Rules*/
+* {
+  text-align: center;
+}
+
+#logo {
+  position: relative;
+  border: solid white 4px;
+  height: 100px;
+  width: 100px;
+  margin-left: 50%;
+  left: -52px;
+  border-radius: 100%;
+  color: white;
+
+  h1 {
+    padding-top: 13px;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 4em;
+    bottom: 18px;
+  }
+}
+
+#nav {
+  text-align: center;
+
+  ul {
+    display: inline-block;
+  }
+  //
+  // li {
+  //   float: left;
+  //   margin: 20px;
+  // }
+  .nav-item {
+    float: left;
+    margin: 20px;
+  }
+}
